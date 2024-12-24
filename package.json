@@ -8,7 +8,6 @@
     "mailtrap": "^3.4.0",
     "mongoose": "^8.8.4",
     "netlify-cli": "^17.38.1",
-    "netlify-lambda": "^2.0.16",
     "nodemailer": "^6.9.16",
     "serverless-http": "^3.2.0"
   },
@@ -21,8 +20,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js",
-    "build": "netlify deploy --prod"
+    "start": "nodemon index.js"
   },
   "author": "Jeshan Maharjan",
   "license": "ISC"

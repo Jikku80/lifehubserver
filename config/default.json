@@ -1,0 +1,8 @@
+{
+    "PORT": 3000,
+    "DB_CONNECTION": "mongodb://localhost:27017/life",
+    "JWT_EXPIRE": "90d",
+    "JWT_SECRET": "th15_15_my_5up3r_l0ng_jwt_53cr3t_k3y_y0u_c@n_try_h@ck1ng_1t",
+    "COOKIE_EXPIRES": 90,
+    "LOCAL_FRONT":""
+}

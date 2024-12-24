@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailtrap": "^3.4.0",
+    "mongoose": "^8.8.4",
+    "netlify-cli": "^17.38.1",
+    "netlify-lambda": "^2.0.16",
+    "nodemailer": "^6.9.16",
+    "serverless-http": "^3.2.0"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "description": "life goal app version 1",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "build": "netlify deploy --prod"
+  },
+  "author": "Jeshan Maharjan",
+  "license": "ISC"
+}

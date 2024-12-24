@@ -29,8 +29,8 @@ app.all('*', (req, res, next) => {
     res.status(404).send("Page not found!");
 })
 
-mongoose.connect(config.get("DB_CONNECTION"))
-    .then(() => console.log(`Connected to ${config.get("DB_CONNECTION")}...`))
+mongoose.connect(config.get("PROD_DB_CONNECTION"))
+    .then(() => console.log(`Connected to the database...`))
     .catch((err) => console.log(err.message));
 
 const server = http.listen(process.env.PORT || config.get("PORT"), err => {

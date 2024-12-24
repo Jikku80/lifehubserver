@@ -1,6 +1,7 @@
 {
     "PORT": 3000,
     "DB_CONNECTION": "mongodb://localhost:27017/life",
+    "PROD_DB_CONNECTION": "mongodb+srv://jeshan_marz:kiZOJRNMIsuZ7gAH@cluster0.umf4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
     "JWT_EXPIRE": "90d",
     "JWT_SECRET": "th15_15_my_5up3r_l0ng_jwt_53cr3t_k3y_y0u_c@n_try_h@ck1ng_1t",
     "COOKIE_EXPIRES": 90,
